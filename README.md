@@ -40,4 +40,5 @@ To view all tags in the repository:
 git tag
 /////////////////////////////////////////////////////////////////////
 
-![image](https://github.com/user-attachments/assets/096b4a1f-496a-4fb6-b3be-3b2e232cb5f6)
+
+![Screenshot from 2025-01-17 09-49-17](https://github.com/user-attachments/assets/ce5cf8e1-9a2b-4441-a558-042f55ad6b9f)
