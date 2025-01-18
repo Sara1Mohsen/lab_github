@@ -1,3 +1,6 @@
+![Screenshot from 2025-01-17 09-49-17](https://github.com/user-attachments/assets/ce5cf8e1-9a2b-4441-a558-042f55ad6b9f)
+
+
 delete branch local ---> git branch -d test
 
 delete branch remotly ---> git push origin --delete test
@@ -41,4 +44,3 @@ git tag
 /////////////////////////////////////////////////////////////////////
 
 
-![Screenshot from 2025-01-17 09-49-17](https://github.com/user-attachments/assets/ce5cf8e1-9a2b-4441-a558-042f55ad6b9f)
