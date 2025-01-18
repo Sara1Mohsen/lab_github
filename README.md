@@ -44,3 +44,24 @@ git tag
 /////////////////////////////////////////////////////////////////////
 
 
+# When to Use Rebase
+
+## What is Git Rebase?
+`git rebase` is a Git command that integrates changes from one branch onto another. It allows you to move or combine a sequence of commits to a new base commit. It rewrites commit history, making it linear and cleaner compared to merge.
+
+---
+
+## When to Use Rebase
+
+1. **Keep Commit History Clean**:
+   - Use `rebase` to maintain a **linear history**.
+   - Rebasing avoids unnecessary merge commits, which helps in keeping a clean history.
+   - Especially useful when working on feature branches that are being merged back into the main branch.
+
+2. **Incorporate Changes from the Main Branch**:
+   - If you are working on a feature branch, you can use `rebase` to update your branch with the latest changes from the main branch.
+   - This ensures your feature branch stays up-to-date and reduces the chance of conflicts later.
+
+   ```bash
+   git checkout feature-branch
+   git rebase main
